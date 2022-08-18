@@ -7,6 +7,13 @@ from time import sleep
 import xlsxwriter
 
 
+# This is the same project I had made with BeautifulSoup before but it is way better,
+# using IDs and NAMES and TAGs instead is way more stable than just using indexes of the js info tag
+# the only thing it is missing is the channel subscribers count wich is a challenge here aswell,
+# I might update it later and add this feature to it.
+# Hope you can use this and have fun!
+
+
 PATH = "C:\Program Files (x86)\chromedriver.exe"
 driver = webdriver.Chrome(PATH)
 
